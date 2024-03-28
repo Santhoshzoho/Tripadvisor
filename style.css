@@ -35,13 +35,6 @@ nav {
     gap: 27px;
 }
 
-nav {
-    position: sticky;
-    top: 0;
-    z-index: 4;
-    background-color: white;
-}
-
 .navbar-p2 #navbar__trip:hover {
     text-decoration: underline gray 5px;
     color: gray;
@@ -163,9 +156,7 @@ nav {
 .search-center {
     display: flex;
     justify-content: center;
-
 }
-
 
 .sale-image {
     display: flex;
@@ -208,10 +199,6 @@ nav {
     position: relative;
 }
 
-.arrwor {
-    position: absolute;
-}
-
 .card p {
     position: absolute;
     bottom: 10px;
@@ -224,12 +211,6 @@ nav {
     font-size: 17px;
     font-weight: 600;
 
-}
-
-.arrwor img {
-    width: 30px;
-    position: absolute;
-    rotate: 90deg;
 }
 
 .ads {
@@ -278,7 +259,7 @@ nav {
     background-color: #000000;
 }
 
-.dot i {
+.dot i{
     padding: 3px;
 }
 
@@ -309,4 +290,41 @@ nav {
 
 .video-subheading {
     margin: 30px 130px 30px 130px;
+}
+
+.s1 {
+    display: flex;
+    gap: 50px;
+    padding: 0 70px 0 70px;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+
+.contact {
+    position: relative;
+    background-color: #FAF1ED;
+    margin-top: 70px;
+    display: flex;
+    height: 400px;
+    justify-content: space-around;
+}
+
+.s2 {
+    display: flex;
+    position: absolute;
+    right: 200px;
+    top: 50px;
+}
+
+.p1 p {
+    padding: 5px;
+}
+
+.p2 p {
+    padding: 5px;
+}
+
+.p3 p {
+    padding: 5px;
 }
